@@ -14,9 +14,6 @@
 
 $(call inherit-product, device/motorola/merlin/full_merlin.mk)
 
-# Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
@@ -28,6 +25,3 @@ PRODUCT_NAME := aosp_merlin
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := merlin
-
-#Build Magisk
-DEFAULT_ROOT_METHOD := magisk
